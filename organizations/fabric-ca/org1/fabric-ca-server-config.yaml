@@ -247,6 +247,8 @@ affiliations:
       - department2
    org2:
       - department1
+   org3:
+      - department2
 
 #############################################################################
 #  Signing section
