@@ -9,6 +9,7 @@ volumes:
   orderer.example.com:
   peer0.org1.example.com:
   peer0.org2.example.com:
+  peer0.org3.example.com:
 
 networks:
   test:
@@ -158,7 +159,7 @@ services:
       - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:11052
       - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.org3.example.com:11051
       - CORE_PEER_GOSSIP_BOOTSTRAP=peer0.org3.example.com:11051
-      - CORE_PEER_LOCALMSPID=org3MSP
+      - CORE_PEER_LOCALMSPID=Org3MSP
       - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/fabric/msp      
       - CORE_OPERATIONS_LISTENADDRESS=peer0.org3.example.com:9446
       - CORE_METRICS_PROVIDER=prometheus
