@@ -340,3 +340,20 @@ Profiles:
                 - *Org2
                 - *Org3
             Capabilities: *ApplicationCapabilities
+
+    Channel1:
+        Consortium : SampleConsortium
+        Application:
+            <<: *ApplicationDefaults
+            Organizations:
+                - *Org1
+                - *Org2
+
+
+    Channel2:
+        Consortium : SampleConsortium
+        Application:
+            <<: *ApplicationDefaults
+            Organizations:
+                - *Org2
+                - *Org3
