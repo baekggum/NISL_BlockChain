@@ -342,6 +342,7 @@ Profiles:
             Capabilities: *ApplicationCapabilities
 
     Channel1:
+        Consortium : SampleConsortium
         <<: *ChannelDefaults
         Orderer:
             <<: *OrdererDefaults
@@ -356,6 +357,7 @@ Profiles:
             Capabilities: *ApplicationCapabilities
 
     Channel2:
+        Consortium : SampleConsortium
         <<: *ChannelDefaults
         Orderer:
             <<: *OrdererDefaults
