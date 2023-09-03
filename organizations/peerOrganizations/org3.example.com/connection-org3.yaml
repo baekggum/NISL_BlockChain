@@ -16,7 +16,7 @@ organizations:
     - ca.org3.example.com
 peers:
   peer0.org3.example.com:
-    url: grpcs://localhost:11051
+    url: grpcs://localhost:9051
     tlsCACerts:
       pem: |
           -----BEGIN CERTIFICATE-----

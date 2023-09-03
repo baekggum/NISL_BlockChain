@@ -180,6 +180,7 @@ function createOrgs() {
       fatalln "Failed to generate certificates..."
     fi
 
+
     infoln "Creating Orderer Org Identities"
 
     set -x
@@ -226,7 +227,7 @@ function createOrgs() {
 
   fi
 
-  infoln "Generating CCP files for Org1 and Org2"
+  infoln "Generating CCP files for Org1 and Org2 and Org3 and Org4"
   ./organizations/ccp-generate.sh
 }
 
